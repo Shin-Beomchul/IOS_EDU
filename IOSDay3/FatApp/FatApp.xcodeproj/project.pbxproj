@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F260B3FF2102FDEB003FB45B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260B3FE2102FDEB003FB45B /* AppDelegate.swift */; };
+		F260B4012102FDEB003FB45B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260B4002102FDEB003FB45B /* ViewController.swift */; };
+		F260B4042102FDEB003FB45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F260B4022102FDEB003FB45B /* Main.storyboard */; };
+		F260B4062102FDEB003FB45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F260B4052102FDEB003FB45B /* Assets.xcassets */; };
+		F260B4092102FDEB003FB45B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F260B4072102FDEB003FB45B /* LaunchScreen.storyboard */; };
+		F260B4142102FDEB003FB45B /* FatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260B4132102FDEB003FB45B /* FatAppTests.swift */; };
+		F260B41F2102FDEC003FB45B /* FatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260B41E2102FDEC003FB45B /* FatAppUITests.swift */; };
+		F260B42D2102FE14003FB45B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260B42C2102FE14003FB45B /* Global.swift */; };
+		F260B4312102FF02003FB45B /* FatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260B4302102FF02003FB45B /* FatController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F260B4102102FDEB003FB45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F260B3F32102FDEB003FB45B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F260B3FA2102FDEB003FB45B;
+			remoteInfo = FatApp;
+		};
+		F260B41B2102FDEC003FB45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F260B3F32102FDEB003FB45B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F260B3FA2102FDEB003FB45B;
+			remoteInfo = FatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F260B3FB2102FDEB003FB45B /* FatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F260B3FE2102FDEB003FB45B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F260B4002102FDEB003FB45B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F260B4032102FDEB003FB45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F260B4052102FDEB003FB45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F260B4082102FDEB003FB45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F260B40A2102FDEB003FB45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F260B40F2102FDEB003FB45B /* FatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F260B4132102FDEB003FB45B /* FatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatAppTests.swift; sourceTree = "<group>"; };
+		F260B4152102FDEB003FB45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F260B41A2102FDEC003FB45B /* FatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F260B41E2102FDEC003FB45B /* FatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatAppUITests.swift; sourceTree = "<group>"; };
+		F260B4202102FDEC003FB45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F260B42C2102FE14003FB45B /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		F260B4302102FF02003FB45B /* FatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FatController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F260B3F82102FDEB003FB45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F260B40C2102FDEB003FB45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F260B4172102FDEC003FB45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F260B3F22102FDEB003FB45B = {
+			isa = PBXGroup;
+			children = (
+				F260B3FD2102FDEB003FB45B /* FatApp */,
+				F260B4122102FDEB003FB45B /* FatAppTests */,
+				F260B41D2102FDEC003FB45B /* FatAppUITests */,
+				F260B3FC2102FDEB003FB45B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F260B3FC2102FDEB003FB45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F260B3FB2102FDEB003FB45B /* FatApp.app */,
+				F260B40F2102FDEB003FB45B /* FatAppTests.xctest */,
+				F260B41A2102FDEC003FB45B /* FatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F260B3FD2102FDEB003FB45B /* FatApp */ = {
+			isa = PBXGroup;
+			children = (
+				F260B3FE2102FDEB003FB45B /* AppDelegate.swift */,
+				F260B4002102FDEB003FB45B /* ViewController.swift */,
+				F260B4022102FDEB003FB45B /* Main.storyboard */,
+				F260B4052102FDEB003FB45B /* Assets.xcassets */,
+				F260B4072102FDEB003FB45B /* LaunchScreen.storyboard */,
+				F260B40A2102FDEB003FB45B /* Info.plist */,
+				F260B42C2102FE14003FB45B /* Global.swift */,
+				F260B4302102FF02003FB45B /* FatController.swift */,
+			);
+			path = FatApp;
+			sourceTree = "<group>";
+		};
+		F260B4122102FDEB003FB45B /* FatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F260B4132102FDEB003FB45B /* FatAppTests.swift */,
+				F260B4152102FDEB003FB45B /* Info.plist */,
+			);
+			path = FatAppTests;
+			sourceTree = "<group>";
+		};
+		F260B41D2102FDEC003FB45B /* FatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F260B41E2102FDEC003FB45B /* FatAppUITests.swift */,
+				F260B4202102FDEC003FB45B /* Info.plist */,
+			);
+			path = FatAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F260B3FA2102FDEB003FB45B /* FatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F260B4232102FDEC003FB45B /* Build configuration list for PBXNativeTarget "FatApp" */;
+			buildPhases = (
+				F260B3F72102FDEB003FB45B /* Sources */,
+				F260B3F82102FDEB003FB45B /* Frameworks */,
+				F260B3F92102FDEB003FB45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FatApp;
+			productName = FatApp;
+			productReference = F260B3FB2102FDEB003FB45B /* FatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F260B40E2102FDEB003FB45B /* FatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F260B4262102FDEC003FB45B /* Build configuration list for PBXNativeTarget "FatAppTests" */;
+			buildPhases = (
+				F260B40B2102FDEB003FB45B /* Sources */,
+				F260B40C2102FDEB003FB45B /* Frameworks */,
+				F260B40D2102FDEB003FB45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F260B4112102FDEB003FB45B /* PBXTargetDependency */,
+			);
+			name = FatAppTests;
+			productName = FatAppTests;
+			productReference = F260B40F2102FDEB003FB45B /* FatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F260B4192102FDEC003FB45B /* FatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F260B4292102FDEC003FB45B /* Build configuration list for PBXNativeTarget "FatAppUITests" */;
+			buildPhases = (
+				F260B4162102FDEC003FB45B /* Sources */,
+				F260B4172102FDEC003FB45B /* Frameworks */,
+				F260B4182102FDEC003FB45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F260B41C2102FDEC003FB45B /* PBXTargetDependency */,
+			);
+			name = FatAppUITests;
+			productName = FatAppUITests;
+			productReference = F260B41A2102FDEC003FB45B /* FatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F260B3F32102FDEB003FB45B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chmac;
+				TargetAttributes = {
+					F260B3FA2102FDEB003FB45B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F260B40E2102FDEB003FB45B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F260B3FA2102FDEB003FB45B;
+					};
+					F260B4192102FDEC003FB45B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F260B3FA2102FDEB003FB45B;
+					};
+				};
+			};
+			buildConfigurationList = F260B3F62102FDEB003FB45B /* Build configuration list for PBXProject "FatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F260B3F22102FDEB003FB45B;
+			productRefGroup = F260B3FC2102FDEB003FB45B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F260B3FA2102FDEB003FB45B /* FatApp */,
+				F260B40E2102FDEB003FB45B /* FatAppTests */,
+				F260B4192102FDEC003FB45B /* FatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F260B3F92102FDEB003FB45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F260B4092102FDEB003FB45B /* LaunchScreen.storyboard in Resources */,
+				F260B4062102FDEB003FB45B /* Assets.xcassets in Resources */,
+				F260B4042102FDEB003FB45B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F260B40D2102FDEB003FB45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F260B4182102FDEC003FB45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F260B3F72102FDEB003FB45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F260B4012102FDEB003FB45B /* ViewController.swift in Sources */,
+				F260B4312102FF02003FB45B /* FatController.swift in Sources */,
+				F260B3FF2102FDEB003FB45B /* AppDelegate.swift in Sources */,
+				F260B42D2102FE14003FB45B /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F260B40B2102FDEB003FB45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F260B4142102FDEB003FB45B /* FatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F260B4162102FDEC003FB45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F260B41F2102FDEC003FB45B /* FatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F260B4112102FDEB003FB45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F260B3FA2102FDEB003FB45B /* FatApp */;
+			targetProxy = F260B4102102FDEB003FB45B /* PBXContainerItemProxy */;
+		};
+		F260B41C2102FDEC003FB45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F260B3FA2102FDEB003FB45B /* FatApp */;
+			targetProxy = F260B41B2102FDEC003FB45B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F260B4022102FDEB003FB45B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F260B4032102FDEB003FB45B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F260B4072102FDEB003FB45B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F260B4082102FDEB003FB45B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F260B4212102FDEC003FB45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F260B4222102FDEC003FB45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F260B4242102FDEC003FB45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beom.house.FatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F260B4252102FDEC003FB45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beom.house.FatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F260B4272102FDEC003FB45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beom.house.FatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatApp.app/FatApp";
+			};
+			name = Debug;
+		};
+		F260B4282102FDEC003FB45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beom.house.FatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FatApp.app/FatApp";
+			};
+			name = Release;
+		};
+		F260B42A2102FDEC003FB45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beom.house.FatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FatApp;
+			};
+			name = Debug;
+		};
+		F260B42B2102FDEC003FB45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beom.house.FatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F260B3F62102FDEB003FB45B /* Build configuration list for PBXProject "FatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F260B4212102FDEC003FB45B /* Debug */,
+				F260B4222102FDEC003FB45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F260B4232102FDEC003FB45B /* Build configuration list for PBXNativeTarget "FatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F260B4242102FDEC003FB45B /* Debug */,
+				F260B4252102FDEC003FB45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F260B4262102FDEC003FB45B /* Build configuration list for PBXNativeTarget "FatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F260B4272102FDEC003FB45B /* Debug */,
+				F260B4282102FDEC003FB45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F260B4292102FDEC003FB45B /* Build configuration list for PBXNativeTarget "FatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F260B42A2102FDEC003FB45B /* Debug */,
+				F260B42B2102FDEC003FB45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F260B3F32102FDEB003FB45B /* Project object */;
+}
